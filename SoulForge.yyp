@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05160170-6fc8-4016-ad70-8dacf1746461",
+            "Value": {
+                "id": "ff29fd75-a3e6-459c-9de2-9e92b61a3a1b",
+                "resourcePath": "sprites\\sprFloor\\sprFloor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07b268b9-ee8e-47c7-aa68-580fb8c99adf",
             "Value": {
                 "id": "7e457c91-04c6-4abb-8048-4ab044a2c79f",
@@ -79,6 +87,14 @@
             }
         },
         {
+            "Key": "20514eca-f1e7-4e4a-9016-bc5d46d10f28",
+            "Value": {
+                "id": "f9303887-2f17-4ec2-a621-00f08f3d98e4",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21f0341c-faa9-4285-8e03-c1eb95d2602f",
             "Value": {
                 "id": "fc55412a-516d-44e1-aa29-147e710fe841",
@@ -100,6 +116,14 @@
                 "id": "95d2ce25-924c-43c2-a13d-d7c30ec59be3",
                 "resourcePath": "views\\58d834f0-eeff-4993-bc57-ae09d0280812.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59b89d3b-6294-47c4-8e9f-316fa4054650",
+            "Value": {
+                "id": "f7b9370b-d0de-4f04-96ba-7ade6a33adca",
+                "resourcePath": "sprites\\sprPlayer\\sprPlayer.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,11 +175,27 @@
             }
         },
         {
+            "Key": "9d7f0723-a62b-437a-8aea-000d6bec0c4e",
+            "Value": {
+                "id": "d4a6a325-1480-4d37-8911-318971db28de",
+                "resourcePath": "sprites\\sprWall\\sprWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "b816f4df-ee6f-4e3e-bda8-d078c8ab88ae",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "cb1b24e6-47d5-4155-9477-68f3ea0eb435",
+            "Value": {
+                "id": "6c319489-d393-417c-8528-bc9f898f356e",
+                "resourcePath": "objects\\objWall\\objWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
