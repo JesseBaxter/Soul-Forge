@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "7b7eb848-bc6e-4f19-ada1-e185c5e405fc",
+            "Value": {
+                "id": "1a33ec04-15e3-41d1-9e23-4f67023235f7",
+                "resourcePath": "objects\\objWeapon\\objWeapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c4fab87-6eca-4aa0-85c2-1c2af1ab81bb",
             "Value": {
                 "id": "83f366e7-9dd2-40e4-bf65-25b93e895de8",
@@ -236,6 +244,14 @@
                 "id": "d4a6a325-1480-4d37-8911-318971db28de",
                 "resourcePath": "sprites\\sprWall\\sprWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "3fc14999-0b3d-420d-876e-47fd5c26c6f3",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -276,6 +292,14 @@
                 "id": "dca33a74-54d1-42f6-b7ae-3fe0eb15f152",
                 "resourcePath": "views\\d7fa96f7-dfd8-49a7-89bf-26418261aa0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "cdfe1d5e-1502-4a66-a0b5-55c19a6ebf67",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         }
     ],
