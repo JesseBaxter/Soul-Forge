@@ -11,4 +11,4 @@ speed = 16;
 
 //Angle the sprite to be in line with the direction it is traveling
 //only matters for non radially symmetric sprites 
-image_angle = direction;
+image_angle = direction - 90;

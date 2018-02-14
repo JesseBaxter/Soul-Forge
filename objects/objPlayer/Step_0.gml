@@ -3,6 +3,7 @@
 
 //Angle the player toward the mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y);
+image_angle -= 90;
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
 if (mouse_check_button(mb_left)) && (cooldown < 1)
