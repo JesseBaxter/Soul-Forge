@@ -4,6 +4,7 @@
 //Angle the player toward the mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 image_angle -= 90;
+isMoving = false;
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
 if (mouse_check_button(mb_left)) && (cooldown < 1)
@@ -19,21 +20,32 @@ cooldown -= 1;
 if keyboard_check(ord("W"))
 {
    y=y-playerSpeed;
+   isMoving = true;
 }
    
 if keyboard_check(ord("A"))
 {
    x=x-playerSpeed;
+   isMoving = true;
 }
    
 if keyboard_check(ord("S"))
 {
    y=y+playerSpeed;
+   isMoving = true;
 }
    
 if keyboard_check(ord("D"))
 {
    x=x+playerSpeed;
+   isMoving = true;
+}
+
+if (isMoving) {
+	sprite_index = sprPlayerWalk;
+}
+else {
+	sprite_index = sprPlayer;
 }
 
 /*

@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0eedd769-dfba-4952-b588-4cd8637e3505",
+            "Value": {
+                "id": "9916eb96-4e9c-4569-ac33-a747e750b8df",
+                "resourcePath": "sprites\\sprWallCollision\\sprWallCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12c14699-ea6f-4938-a4c5-b823feb3489c",
             "Value": {
                 "id": "696378be-98a8-4367-9ce2-c63898fa4e1b",
