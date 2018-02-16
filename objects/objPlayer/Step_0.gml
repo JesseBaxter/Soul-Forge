@@ -10,9 +10,22 @@ isMoving = false;
 if (mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	//Created Bullet in the layer
-    instance_create_layer(x, y, layer, objBullet);
+   // instance_create_layer(x, y, layer, objBullet);
 	//Sets the cooldown to 3 (cooldown == rate of fire)
-    cooldown = 5;
+    //cooldown = 5;
+	
+	if(currentGun == 1){
+		instance_create_layer(x, y, layer, objBulletFist);
+		cooldown = 5;
+	}
+	
+	if(currentGun == 2){
+		instance_create_layer(x,y,layer, objBullet)
+	}
+	
+	if(currentGun == 3){
+		instance_create_layer(x,y,layer,objBulletFast);
+	}
 }
 //Decriment cooldown by value, this will happen every game frame
 cooldown -= 1; 
@@ -46,6 +59,19 @@ if (isMoving) {
 }
 else {
 	sprite_index = sprPlayer;
+}
+
+if (keyboard_check(ord("1")) && unlockedWeps[0] == 1){
+	currentGun =1;
+}
+
+if (keyboard_check(ord("2")) && unlockedWeps[1] == 1){
+	currentGun =2;
+}
+
+
+if (keyboard_check(ord("3")) && unlockedWeps[2] == 1){
+	currentGun =3;
 }
 
 /*
