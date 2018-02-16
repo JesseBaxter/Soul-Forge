@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "7b7eb848-bc6e-4f19-ada1-e185c5e405fc",
-            "Value": {
-                "id": "1a33ec04-15e3-41d1-9e23-4f67023235f7",
-                "resourcePath": "objects\\objWeapon\\objWeapon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7c4fab87-6eca-4aa0-85c2-1c2af1ab81bb",
             "Value": {
                 "id": "83f366e7-9dd2-40e4-bf65-25b93e895de8",
@@ -311,11 +303,35 @@
             }
         },
         {
+            "Key": "9514bfc3-55e6-4d83-bbd1-a88a418e87d3",
+            "Value": {
+                "id": "56959391-356d-40bd-9d07-b7b0ff11bd0b",
+                "resourcePath": "objects\\objKnives\\objKnives.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "959afcfe-2cb4-4449-b64d-4e5e7c8701e9",
+            "Value": {
+                "id": "ea3e63b8-94ad-419b-8c91-ef5844f6ce59",
+                "resourcePath": "objects\\objBulletKnife\\objBulletKnife.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97ed6b82-c33b-4276-a0e8-a4b0d73e2678",
             "Value": {
                 "id": "132fc1b8-fa46-4eae-b975-be9f542373a2",
                 "resourcePath": "tilesets\\tileMars\\tileMars.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "98bb1cfa-e89a-4f51-9216-e4c0d8baaf44",
+            "Value": {
+                "id": "9f8c9433-eabf-4ee1-9e52-36164b38ee06",
+                "resourcePath": "sprites\\sprFastGun\\sprFastGun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -335,11 +351,27 @@
             }
         },
         {
+            "Key": "9f84b0d2-c717-430f-bc33-2c96ba3dc994",
+            "Value": {
+                "id": "dbd58083-269a-4d63-8f0d-141239daecb8",
+                "resourcePath": "sprites\\sprKnives\\sprKnives.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a12eebad-2240-408b-a180-89d03728200c",
             "Value": {
                 "id": "a15a2689-d7d1-4b45-a06b-43e9fa7f6ea8",
                 "resourcePath": "scripts\\attack\\attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a605201b-6302-408e-b129-524d11aed561",
+            "Value": {
+                "id": "2da4d957-9142-466d-bd23-88aed35169ba",
+                "resourcePath": "objects\\objFastGun\\objFastGun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +444,14 @@
                 "id": "dca33a74-54d1-42f6-b7ae-3fe0eb15f152",
                 "resourcePath": "views\\d7fa96f7-dfd8-49a7-89bf-26418261aa0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e44b4210-c738-460d-8b73-415d13834912",
+            "Value": {
+                "id": "c964e1a8-85c3-4fc2-ae81-3b2ccc9ccc7e",
+                "resourcePath": "sprites\\sprBulletKnife\\sprBulletKnife.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
