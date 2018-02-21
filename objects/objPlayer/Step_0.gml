@@ -42,25 +42,37 @@ cooldown -= 1;
 
 if keyboard_check(ord("W"))
 {
-   y=y-playerSpeed;
+   for(i=0; i<playerSpeed; i++) {
+	   y=y-1;
+	   playerWallCollision();
+   }
    isMoving = true;
 }
    
 if keyboard_check(ord("A"))
 {
-   x=x-playerSpeed;
+   for(i=0; i<playerSpeed; i++) {
+	   x=x-1;
+	   playerWallCollision();
+   }
    isMoving = true;
 }
    
 if keyboard_check(ord("S"))
 {
-   y=y+playerSpeed;
+   for(i=0; i<playerSpeed; i++) {
+	   y=y+1;
+	   playerWallCollision();
+   }
    isMoving = true;
 }
    
 if keyboard_check(ord("D"))
 {
-   x=x+playerSpeed;
+   for(i=0; i<playerSpeed; i++) {
+	   x=x+1;
+	   playerWallCollision();
+   }
    isMoving = true;
 }
 
@@ -87,8 +99,6 @@ if (keyboard_check(ord("4")) && unlockedWeps[3] == 1){
 	currentGun = 4;
 }
 
-playerWallCollision(wallId);
-
 /*
 if keyboard_check(ord("E"))
 {
@@ -100,3 +110,8 @@ if keyboard_check(ord("Q"))
    playerSpeed--;
 }
 */
+
+//Update previous mouse position
+playerWallCollision();
+mouse_xprevious = mouse_x;
+mouse_yprevious = mouse_y;
