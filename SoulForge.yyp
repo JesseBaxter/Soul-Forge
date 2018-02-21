@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1ca6732f-ef5c-4d4d-869a-f74f81e90a28",
+            "Value": {
+                "id": "2c485338-de47-4802-999d-f8bf9f2c3703",
+                "resourcePath": "scripts\\playerWallCollision\\playerWallCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "203ea977-e1f6-4faf-b113-95dd04598835",
             "Value": {
                 "id": "48746d61-d266-45fc-9518-fc3d34d53d42",
@@ -472,7 +480,8 @@
         }
     ],
     "script_order": [
-        "a12eebad-2240-408b-a180-89d03728200c"
+        "a12eebad-2240-408b-a180-89d03728200c",
+        "1ca6732f-ef5c-4d4d-869a-f74f81e90a28"
     ],
     "tutorial": ""
 }

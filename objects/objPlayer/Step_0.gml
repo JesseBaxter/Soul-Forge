@@ -2,8 +2,7 @@
 // You can write your code in this editor
 
 //Angle the player toward the mouse
-image_angle = point_direction(x, y, mouse_x, mouse_y);
-image_angle -= 90;
+image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 isMoving = false;
 
 if(health == 0)
@@ -87,6 +86,9 @@ if (keyboard_check(ord("3")) && unlockedWeps[2] == 1){
 if (keyboard_check(ord("4")) && unlockedWeps[3] == 1){
 	currentGun = 4;
 }
+
+playerWallCollision(wallId);
+
 /*
 if keyboard_check(ord("E"))
 {
