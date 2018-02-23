@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "12a237b8-1c65-4be2-ba7d-079e292dd963",
+            "Value": {
+                "id": "001039c8-bc57-42cb-b3a2-27ba1921afa2",
+                "resourcePath": "sprites\\sprite29\\sprite29.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12c14699-ea6f-4938-a4c5-b823feb3489c",
             "Value": {
                 "id": "696378be-98a8-4367-9ce2-c63898fa4e1b",
@@ -116,6 +124,14 @@
                 "id": "668cbb2b-de00-44e1-a255-833235afeecc",
                 "resourcePath": "views\\13f3f4c7-14f5-4886-8fc6-e1d1f7195f62.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14599e55-c65a-428b-9222-4ca587fe5c9d",
+            "Value": {
+                "id": "98e11718-8fa5-47af-8adf-64e359bb0ea3",
+                "resourcePath": "objects\\objBulletSword\\objBulletSword.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -156,6 +172,14 @@
                 "id": "2c485338-de47-4802-999d-f8bf9f2c3703",
                 "resourcePath": "scripts\\playerWallCollision\\playerWallCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1d19614c-a18f-4ea4-906c-3478e56428e3",
+            "Value": {
+                "id": "fc0f7ef5-6f04-435c-bb94-27f84dcde5b7",
+                "resourcePath": "sprites\\sprSword\\sprSword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -266,7 +290,7 @@
             "Key": "54a59f2d-a286-4a32-b02b-81265d742895",
             "Value": {
                 "id": "3d896013-0aae-4035-91bc-dcd9b561116f",
-                "resourcePath": "sprites\\sprite27\\sprite27.yy",
+                "resourcePath": "sprites\\sprExplosion\\sprExplosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -452,6 +476,14 @@
                 "id": "a15a2689-d7d1-4b45-a06b-43e9fa7f6ea8",
                 "resourcePath": "scripts\\attack\\attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a40b787c-cdf9-4114-8a4d-e2b23b07b704",
+            "Value": {
+                "id": "1b84cce9-039b-4331-a81e-56fd50304bae",
+                "resourcePath": "objects\\objSword\\objSword.yy",
+                "resourceType": "GMObject"
             }
         },
         {

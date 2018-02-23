@@ -51,6 +51,10 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 		cooldown = 20;
 	}
 	
+	if(currentGun == 8){
+		instance_create_layer(x,y,layer,objBulletSword);
+		cooldown = 5;
+	}
 }
 //Decriment cooldown by value, this will happen every game frame
 cooldown -= 1; 
@@ -124,6 +128,10 @@ if (keyboard_check(ord("6")) && unlockedWeps[5] == 1){
 
 if (keyboard_check(ord("7")) && unlockedWeps[6] == 1){
 	currentGun = 7;
+}
+
+if (keyboard_check(ord("8")) && unlockedWeps[7] == 1){
+	currentGun = 8;
 }
 
 
