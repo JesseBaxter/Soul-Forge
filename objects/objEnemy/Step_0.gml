@@ -3,3 +3,4 @@
 image_angle = direction-90;
 if(hitpoints <= 0)
 	instance_destroy();
+	
