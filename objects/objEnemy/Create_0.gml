@@ -3,6 +3,13 @@
 path_start(path0,4,path_action_reverse,true);
 hitpoints = 100;
 
+//show that player is found
+playerFound = false;
+playerRecorded = false;
+playerDetected = false;
+
 //track where is left off on path
 xpath = 0;
 ypath = 0;
+playerx = 0;
+playery = 0;
