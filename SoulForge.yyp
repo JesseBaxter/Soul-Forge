@@ -263,6 +263,22 @@
             }
         },
         {
+            "Key": "439c1478-1d9a-4801-9e26-c7f5c3510462",
+            "Value": {
+                "id": "1c52e832-4aa9-420b-b363-54445919b209",
+                "resourcePath": "paths\\path5\\path5.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "45059778-f4a3-45dc-9fc9-7171c1f245b9",
+            "Value": {
+                "id": "e407d7b1-84e2-4468-9505-4b2b042e626b",
+                "resourcePath": "paths\\path2\\path2.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "464a6512-58a9-4abf-bb08-561193c9c772",
             "Value": {
                 "id": "9cc83980-20c5-48a3-80f9-c6f890937507",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "6a3f2fab-d4d0-49c0-be7f-2a3ab9f128ef",
+            "Value": {
+                "id": "77071e57-66d3-4ba1-b801-7e614efed2fe",
+                "resourcePath": "paths\\path3\\path3.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "6a8fdc4b-ecbc-4b6f-8686-4b1df09c45b3",
             "Value": {
                 "id": "fd59a98d-03a9-4970-8b2a-62b56b5e4b28",
@@ -404,6 +428,14 @@
                 "id": "f45ea396-dac8-42fd-88a4-c514b66bd7e1",
                 "resourcePath": "views\\80d71f53-b7b2-45ef-bafe-3faaac370a4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cf20694-881a-4255-b98e-1120633263e5",
+            "Value": {
+                "id": "2b684de1-16b8-4682-bdc3-d0cf79a5b509",
+                "resourcePath": "paths\\path4\\path4.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -511,14 +543,6 @@
             }
         },
         {
-            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
-            "Value": {
-                "id": "3fc14999-0b3d-420d-876e-47fd5c26c6f3",
-                "resourcePath": "options\\linux\\options_linux.yy",
-                "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
             "Key": "aa08c51a-6bba-4878-bd37-94cd3c54de40",
             "Value": {
                 "id": "7c5e8805-5703-406f-b334-5a738f42c3d4",
@@ -615,11 +639,19 @@
             }
         },
         {
-            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Key": "e926552a-42db-4885-9909-42735987937d",
             "Value": {
-                "id": "cdfe1d5e-1502-4a66-a0b5-55c19a6ebf67",
-                "resourcePath": "options\\mac\\options_mac.yy",
-                "resourceType": "GMMacOptions"
+                "id": "575a6849-639b-471d-a1f8-939edb9ee727",
+                "resourcePath": "rooms\\level\\level.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f1f925b7-3796-4c94-8bd4-418e20b05b9e",
+            "Value": {
+                "id": "2829484d-6aef-4c25-afb0-61cb2a3a2aed",
+                "resourcePath": "paths\\path1\\path1.yy",
+                "resourceType": "GMPath"
             }
         }
     ],

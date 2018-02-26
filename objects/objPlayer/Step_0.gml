@@ -153,3 +153,7 @@ if keyboard_check_pressed(ord("R")){
 playerWallCollision();
 mouse_xprevious = mouse_x;
 mouse_yprevious = mouse_y;
+
+if keyboard_check_pressed(vk_space) {
+	room_goto_next();
+}
