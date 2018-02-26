@@ -146,7 +146,9 @@ if keyboard_check(ord("Q"))
    playerSpeed--;
 }
 */
-
+if keyboard_check_pressed(ord("R")){
+	game_restart();
+}
 //Update previous mouse position
 playerWallCollision();
 mouse_xprevious = mouse_x;

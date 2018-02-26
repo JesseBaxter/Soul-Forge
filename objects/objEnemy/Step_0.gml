@@ -15,5 +15,27 @@ if (distance_to_point(xpath, ypath) == 0 && !playerDetected && !onPath) {
 	playerFound = false;
 	onPath = true;
 }
-playerDetected = false;
-playerRecorded = false;
+
+if(playerDetected ){
+	if (playerRecorded) {
+		playerx = objPlayer.x;
+		playery = objPlayer.y;
+	}
+	path_end();
+	direction = point_direction(x,y,playerx,playery);
+	move_towards_point(playerx,playery,4);
+	
+	if(cooldown<=0){
+		instance_create_layer(x,y,layer,objBulletEnemyBasic);
+		cooldown = 10;
+	}
+	
+}
+
+cooldown--;
+
+if(timer<= 0){
+	playerDetected = false;
+	playerRecorded = false;
+}
+timer--;

@@ -18,3 +18,4 @@ direction = point_direction(x,y,playerx,playery);
 move_towards_point(playerx,playery,4);
 //enemy no longer on path
 onPath = false;
+timer = 100;
