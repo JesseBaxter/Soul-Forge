@@ -2,6 +2,7 @@
 if (!playerFound) {
 	xpath = x;
 	ypath = y;
+	pathPos = path_position;
 }
 //prevents enemy from constantly recoding its position
 playerFound = true;
@@ -15,3 +16,5 @@ if (playerRecorded) {
 path_end();
 direction = point_direction(x,y,playerx,playery);
 move_towards_point(playerx,playery,4);
+//enemy no longer on path
+onPath = false;

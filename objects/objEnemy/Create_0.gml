@@ -11,5 +11,7 @@ playerDetected = false;
 //track where is left off on path
 xpath = 0;
 ypath = 0;
+pathPos = path_position;
+onPath = true;
 playerx = 0;
 playery = 0;
