@@ -7,7 +7,7 @@ show_debug_message("vector y = " + string(vectory));
 
 unitVector0x = vectorx / sqrt((vectorx * vectorx) + (vectory * vectory));
 show_debug_message("unit 0 x = " + string(unitVector0x));
-unitVector0y = sqrt(1 - (unitVector0x * unitVector0x));
+unitVector0y = sqrt(1 - abs(unitVector0x * unitVector0x));
 if(vectory < 0) unitVector0y *= -1;
 show_debug_message("unit 0 y = " + string(unitVector0y));
 
