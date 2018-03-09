@@ -12,48 +12,48 @@ if(health == 0)
 if (mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	//Created Bullet in the layer
-   // instance_create_layer(x, y, layer, objBullet);
+    // instance_create_layer(x, y, layer, objBullet);
 	//Sets the cooldown to 3 (cooldown == rate of fire)
     //cooldown = 5;
 	
 	if(currentGun == 1){
 		instance_create_layer(x, y, layer, objBulletFist);
-		cooldown = 5;
+		cooldown = 5-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 2){
 		instance_create_layer(x,y,layer, objBullet)
-		cooldown = 4;
+		cooldown = 4-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 3){
 		instance_create_layer(x,y,layer,objBulletFast);
-		cooldown = 8;
+		cooldown = 8-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 4){
 		instance_create_layer(x,y,layer,objBulletKnife);
-		cooldown = 10;
+		cooldown = 10-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 5){
 		instance_create_layer(x,y,layer,objBulletPipe);
-		cooldown = 5;
+		cooldown = 5-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 6){
 		instance_create_layer(x,y,layer,objBulletArrow);
-		cooldown = 15;
+		cooldown = 15-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 7){
 		instance_create_layer(x,y,layer,objBulletRocket);
-		cooldown = 20;
+		cooldown = 20-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 8){
 		instance_create_layer(x,y,layer,objBulletSword);
-		cooldown = 5;
+		cooldown = 5-weaponCoolDownReduction;
 	}
 }
 //Decriment cooldown by value, this will happen every game frame
@@ -134,6 +134,24 @@ if (keyboard_check(ord("8")) && unlockedWeps[7] == 1){
 	currentGun = 8;
 }
 
+if keyboard_check_pressed(vk_escape){
+	room_set_persistent(room0,true)
+	room_goto(pauseMenu);
+}
+
+if (keyboard_check(ord("E"))){
+	useBuff();
+}
+
+if(buffTimer<=0)
+	unBuff();
+
+buffTimer--;
+
+if (keyboard_check(ord("Q")) && canTeleport){
+	x = mouse_x;
+	y = mouse_y;
+}
 
 /*
 if keyboard_check(ord("E"))
