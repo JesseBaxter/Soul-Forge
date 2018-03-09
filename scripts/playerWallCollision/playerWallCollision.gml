@@ -4,8 +4,11 @@ vectorx = mouse_x - objPlayer.x;
 show_debug_message("vector x = " + string(vectorx));
 vectory = mouse_y - objPlayer.y;
 show_debug_message("vector y = " + string(vectory));
-
+if (sqrt((vectorx * vectorx) + (vectory * vectory)) == 0) {
+	unitVector0x=0;
+} else {
 unitVector0x = vectorx / sqrt((vectorx * vectorx) + (vectory * vectory));
+}
 show_debug_message("unit 0 x = " + string(unitVector0x));
 unitVector0y = sqrt(abs(1 - (unitVector0x * unitVector0x)));
 if(vectory < 0) unitVector0y *= -1;
