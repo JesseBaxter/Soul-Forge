@@ -42,11 +42,7 @@ timer--;
 
 //when enemy health is none
 if (hitpoints <= 0) {
-	rtimer++;
-	if (rtimer >= 2*10) {
-		rtimer = 0;
-		instance_create_layer(x,y,layer,objEnemy);
-		instance_destroy();
-	}
+	instance_create_layer(x,y,"Instances",objEnemyRespawn);
+	instance_destroy();
 }
 

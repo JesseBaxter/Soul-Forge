@@ -2,7 +2,6 @@
 // You can write your code in this editor
 path_start(path0,4,path_action_reverse,true);
 hitpoints = 100;
-full_health = 100;
 
 //show that player is found
 playerFound = false;
