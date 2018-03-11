@@ -18,5 +18,5 @@ playery = 0;
 cooldown = 0;
 timer = 0;
 
-//respawn
-rtimer = 0;
+//regenerate
+regenerating = false;
