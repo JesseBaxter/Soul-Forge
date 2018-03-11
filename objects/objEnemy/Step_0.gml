@@ -49,7 +49,6 @@ if (hitpoints <= 0) {
 //regenerating health if below max health
 if (hitpoints < 75 || regenerating) {
 	regenerating = true;
-	//alarm[0] = room_speed * 1;
 	hitpoints += .5;
 	if (hitpoints >= 100) {
 		regenerating = false;
