@@ -9,7 +9,7 @@ if(health == 0)
 	instance_destroy();
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
-if (mouse_check_button(mb_left)) && (cooldown < 1)
+if (mouse_check_button(mb_left)) && (cooldown < 1) && room = room0
 {
 	//Created Bullet in the layer
     // instance_create_layer(x, y, layer, objBullet);
@@ -17,42 +17,42 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
     //cooldown = 5;
 	
 	if(currentGun == 1){
-		instance_create_layer(x, y, layer, objBulletFist);
+		instance_create_layer(x, y, "Bullets", objBulletFist);
 		cooldown = 5-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 2){
-		instance_create_layer(x,y,layer, objBullet)
+		instance_create_layer(x,y,"Bullets", objBullet)
 		cooldown = 4-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 3){
-		instance_create_layer(x,y,layer,objBulletFast);
+		instance_create_layer(x,y,"Bullets",objBulletFast);
 		cooldown = 8-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 4){
-		instance_create_layer(x,y,layer,objBulletKnife);
+		instance_create_layer(x,y,"Bullets",objBulletKnife);
 		cooldown = 10-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 5){
-		instance_create_layer(x,y,layer,objBulletPipe);
+		instance_create_layer(x,y,"Bullets",objBulletPipe);
 		cooldown = 5-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 6){
-		instance_create_layer(x,y,layer,objBulletArrow);
+		instance_create_layer(x,y,"Bullets",objBulletArrow);
 		cooldown = 15-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 7){
-		instance_create_layer(x,y,layer,objBulletRocket);
+		instance_create_layer(x,y,"Bullets",objBulletRocket);
 		cooldown = 20-weaponCoolDownReduction;
 	}
 	
 	if(currentGun == 8){
-		instance_create_layer(x,y,layer,objBulletSword);
+		instance_create_layer(x,y,"Bullets",objBulletSword);
 		cooldown = 5-weaponCoolDownReduction;
 	}
 }
