@@ -4,6 +4,7 @@ path_start(path0,4,path_action_reverse,true);
 hitpoints = 100;
 
 //show that player is found
+playerClose = false;
 playerFound = false;
 playerRecorded = false;
 playerDetected = false;

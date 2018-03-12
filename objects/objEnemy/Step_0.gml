@@ -16,11 +16,10 @@ if (distance_to_point(xpath, ypath) == 0 && !playerDetected && !onPath) {
 	onPath = true;
 }
 
-if(playerDetected ){
-	if (playerRecorded) {
-		playerx = objPlayer.x;
-		playery = objPlayer.y;
-	}
+//Chase player while shooting
+if(playerClose){
+	playerx = objPlayer.x;
+	playery = objPlayer.y;
 	path_end();
 	direction = point_direction(x,y,playerx,playery);
 	move_towards_point(playerx,playery,4);
