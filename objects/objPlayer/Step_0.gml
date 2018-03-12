@@ -9,7 +9,7 @@ if(health == 0)
 	instance_destroy();
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
-if (mouse_check_button(mb_left)) && (cooldown < 1) && room = room0
+if (mouse_check_button(mb_left)) && (cooldown < 1) && room != pauseMenu && room != craftingMenu
 {
 	//Created Bullet in the layer
     // instance_create_layer(x, y, layer, objBullet);

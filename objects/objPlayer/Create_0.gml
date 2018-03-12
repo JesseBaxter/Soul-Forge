@@ -14,7 +14,7 @@ global.redComponent = 0;
 global.blueComponent = 0;
 global.yellowComponent = 0;
 //Buffs are speed, fire rate, teleport.
-global.boosts = [0,0,0];
+global.boosts = [100,100,100];
 
 currentBuff = 0;
 buffTimer = 0;

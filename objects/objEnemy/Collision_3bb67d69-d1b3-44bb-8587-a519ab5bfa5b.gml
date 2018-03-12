@@ -1,4 +1,4 @@
-//first keep track of point on track when player is first detected
+/*//first keep track of point on track when player is first detected
 if (!playerFound) {
 	xpath = x;
 	ypath = y;
@@ -18,4 +18,4 @@ direction = point_direction(x,y,playerx,playery);
 move_towards_point(playerx,playery,4);
 //enemy no longer on path
 onPath = false;
-timer = 100;
+timer = 100;*/
