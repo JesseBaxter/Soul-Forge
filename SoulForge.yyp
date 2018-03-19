@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "2de0950b-f371-4ddd-9175-ff4dc9d52f9b",
+            "Value": {
+                "id": "c9b703e2-758b-45b6-8a25-e813631cff00",
+                "resourcePath": "objects\\objExitButton\\objExitButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3061c98e-d0fc-4579-87d9-6fbe0e3f1f22",
             "Value": {
                 "id": "2f72399f-7a75-4c47-bc39-b9a34588b192",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "80ce2c8a-ad50-4fc4-84c0-69e480699d21",
+            "Value": {
+                "id": "394af3ca-ca7d-4bae-9db0-8b88db385b84",
+                "resourcePath": "sprites\\sprExitButton\\sprExitButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80d71f53-b7b2-45ef-bafe-3faaac370a4e",
             "Value": {
                 "id": "f45ea396-dac8-42fd-88a4-c514b66bd7e1",
@@ -791,6 +807,14 @@
             }
         },
         {
+            "Key": "a9e22d3d-add3-4983-9d22-7990292b1208",
+            "Value": {
+                "id": "859a1649-f1d4-4882-897c-0cc650d154c5",
+                "resourcePath": "views\\a9e22d3d-add3-4983-9d22-7990292b1208.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "aa08c51a-6bba-4878-bd37-94cd3c54de40",
             "Value": {
                 "id": "7c5e8805-5703-406f-b334-5a738f42c3d4",
@@ -812,6 +836,14 @@
                 "id": "c0ff88a7-1f64-4465-92e5-0221581db72c",
                 "resourcePath": "objects\\objBulletPipe\\objBulletPipe.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be3165b0-f61c-48a6-a8b8-2b8d005eecb4",
+            "Value": {
+                "id": "248cde8a-f483-4466-96fa-5b75aabe24cc",
+                "resourcePath": "rooms\\StartMenu\\StartMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -879,6 +911,14 @@
             }
         },
         {
+            "Key": "d4424e26-1e37-47d5-9554-56af1eb227c8",
+            "Value": {
+                "id": "927ce626-a08f-45d1-bfc9-d8ccfde321be",
+                "resourcePath": "sprites\\sprStartButton\\sprStartButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7b387ee-6ac1-4a02-b75a-24b8223e0e50",
             "Value": {
                 "id": "da476080-372f-4515-aad7-c034f65d919e",
@@ -911,6 +951,14 @@
             }
         },
         {
+            "Key": "ddac840a-d379-4a1c-b8a9-ffea0cf5f4bf",
+            "Value": {
+                "id": "2fd69664-71f8-4e6e-8e05-a131d2ca435b",
+                "resourcePath": "views\\ddac840a-d379-4a1c-b8a9-ffea0cf5f4bf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e44b4210-c738-460d-8b73-415d13834912",
             "Value": {
                 "id": "c964e1a8-85c3-4fc2-ae81-3b2ccc9ccc7e",
@@ -924,6 +972,14 @@
                 "id": "61225657-68c1-4380-87ef-5f5de144a568",
                 "resourcePath": "sprites\\sprBoltYellow\\sprBoltYellow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e602c2e9-050f-4ae5-a025-36598f0e8893",
+            "Value": {
+                "id": "ea166fa0-1299-401b-b34e-a53114c660c8",
+                "resourcePath": "objects\\objStartButton\\objStartButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -956,6 +1012,14 @@
                 "id": "2829484d-6aef-4c25-afb0-61cb2a3a2aed",
                 "resourcePath": "paths\\path1\\path1.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "f2308918-ded1-4e88-b3b5-1827c0d870b0",
+            "Value": {
+                "id": "5134c3a3-2276-496b-9107-f075fc3f296e",
+                "resourcePath": "views\\f2308918-ded1-4e88-b3b5-1827c0d870b0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
