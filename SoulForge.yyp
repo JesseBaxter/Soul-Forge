@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "18caf584-c865-4e16-9c58-f7b62f2ae02c",
+            "Value": {
+                "id": "3a9793f7-4867-45dc-9d16-30cc033b435b",
+                "resourcePath": "objects\\objEnemyCorpse\\objEnemyCorpse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1aec54f8-2d6f-44ce-8c11-29851f2ab7ff",
             "Value": {
                 "id": "ff0f3434-9017-4df9-af57-8ae6563126ca",
@@ -396,6 +404,14 @@
                 "id": "b8c24e71-b9cb-443e-bf1d-863e0de614b6",
                 "resourcePath": "scripts\\useBuff\\useBuff.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c7887aa-2f72-48e1-b3fa-4d0b6ae4aee3",
+            "Value": {
+                "id": "f22c188c-b7b8-4950-aa98-fe36155236ed",
+                "resourcePath": "sprites\\sprHuskBloodPool\\sprHuskBloodPool.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -815,6 +831,22 @@
             }
         },
         {
+            "Key": "a8c10a24-2aeb-49f3-8247-9bd8cf74462c",
+            "Value": {
+                "id": "40d948d9-85b0-4a52-ab2c-397251cebe4a",
+                "resourcePath": "sprites\\sprHuskDeath\\sprHuskDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "d5ead690-18dc-4dbb-9e7f-8306e3facc10",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "a9e22d3d-add3-4983-9d22-7990292b1208",
             "Value": {
                 "id": "859a1649-f1d4-4882-897c-0cc650d154c5",
@@ -836,6 +868,14 @@
                 "id": "82dd1c31-6c90-4cab-b627-62e24b8769c7",
                 "resourcePath": "rooms\\pauseMenu\\pauseMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ae27b0ef-a5a2-47f1-9769-cbbe5ccad713",
+            "Value": {
+                "id": "7061c74d-b6ba-47ac-bd7b-e1df242c9aeb",
+                "resourcePath": "sprites\\sprHuskDead\\sprHuskDead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -935,11 +975,27 @@
             }
         },
         {
+            "Key": "d3d7cacb-1427-4084-b465-6196c4613710",
+            "Value": {
+                "id": "a1784e0f-b03f-43f6-ba97-fbdfeefd5179",
+                "resourcePath": "sprites\\sprHuskBlood\\sprHuskBlood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4424e26-1e37-47d5-9554-56af1eb227c8",
             "Value": {
                 "id": "927ce626-a08f-45d1-bfc9-d8ccfde321be",
                 "resourcePath": "sprites\\sprStartButton\\sprStartButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d48e55f7-42a8-4026-aa35-89aeef2dc622",
+            "Value": {
+                "id": "4a190936-bfc4-4b82-83c3-05d3ee4044c9",
+                "resourcePath": "objects\\objEnemyBlood\\objEnemyBlood.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1052,6 +1108,14 @@
                 "id": "5134c3a3-2276-496b-9107-f075fc3f296e",
                 "resourcePath": "views\\f2308918-ded1-4e88-b3b5-1827c0d870b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "fd8f1071-86ac-46c3-982d-62c4549e1087",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
