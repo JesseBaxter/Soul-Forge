@@ -10,3 +10,5 @@ switch(currentBuff){
 }
 	
 draw_self();
+
+draw_healthbar(x-8,y-18,x+8,y-15,(health/10)*100,c_black,c_red,c_green,0,true, true)
