@@ -3,4 +3,7 @@
 if(timer == 0)
 	instance_destroy();
 	
-timer--;
+if(objPlayer.bulletTime<=0)	
+	timer--;
+	
+speed = normSpeed*global.speedConst; 

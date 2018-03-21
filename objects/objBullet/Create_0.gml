@@ -8,7 +8,7 @@ direction = direction + random_range(-2, 2);
 
 //Set the speed the bullet will travel at
 speed = 16;
-
+normSpeed = 16;
 //Angle the sprite to be in line with the direction it is traveling
 //only matters for non radially symmetric sprites 
 image_angle = direction - 90;

@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0783a639-4ef2-41fd-9512-db7277b6e3dd",
+            "Value": {
+                "id": "08900e10-0f1a-437e-b5c9-864ac83b1b11",
+                "resourcePath": "sprites\\sprBulletDeathIcon\\sprBulletDeathIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07b268b9-ee8e-47c7-aa68-580fb8c99adf",
             "Value": {
                 "id": "7e457c91-04c6-4abb-8048-4ab044a2c79f",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "57b314cb-6e40-4fc3-ad2e-3e6dcbd8319b",
                 "resourcePath": "sprites\\sprRedComponent\\sprRedComponent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "17044033-bdd2-48e5-bea2-4862169a0bba",
+            "Value": {
+                "id": "1fe793f4-9375-4e7b-bb77-93bfd9cc16cb",
+                "resourcePath": "sprites\\sprHourGlass\\sprHourGlass.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -903,6 +919,30 @@
             }
         },
         {
+            "Key": "c18d2836-4e68-4192-9a10-8ac1c82b282e",
+            "Value": {
+                "id": "65610b4f-b23c-472f-bc9d-2e4a9c11767e",
+                "resourcePath": "objects\\objShield\\objShield.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c291f0fa-a064-40d3-a900-c17855147c49",
+            "Value": {
+                "id": "1d6aad78-5e65-47de-b78a-381500f2659b",
+                "resourcePath": "sprites\\sprShieldIcon\\sprShieldIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c295f379-795f-4a5f-b3e0-e05a34818522",
+            "Value": {
+                "id": "24131602-1120-45ca-aae0-862fe19c3603",
+                "resourcePath": "objects\\constants\\constants.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c317123a-f7a2-4572-9fc9-42e394fc304e",
             "Value": {
                 "id": "de9b1a2f-1646-4ab0-b3db-7110353877d1",
@@ -924,6 +964,14 @@
                 "id": "bb13f9ba-ea6d-4768-abd2-fa9d52260045",
                 "resourcePath": "objects\\objBlueCrafting\\objBlueCrafting.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c81e2269-ae08-4cef-891b-dc31520cf3ac",
+            "Value": {
+                "id": "bc71c0d4-f53e-47a3-8a97-96b2646dd6b5",
+                "resourcePath": "sprites\\sprShield\\sprShield.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

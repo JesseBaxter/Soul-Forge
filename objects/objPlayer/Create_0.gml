@@ -13,12 +13,15 @@ global.roomPrevious = room0;
 global.redComponent = 0;
 global.blueComponent = 0;
 global.yellowComponent = 0;
-//Buffs are speed, fire rate, teleport.
-global.boosts = [100,100,100];
+//Buffs are fire rate, speed, shield, teleport, ?, ?
+global.boosts = [0,0,0,0,0,0];
 
 currentBuff = 0;
 buffTimer = 0;
+buffCooldown = 0;
 weaponCoolDownReduction = 0;
 canTeleport = false;
+bulletKillTimer = 0;
+bulletTime = 0;
 
 persistent = true;

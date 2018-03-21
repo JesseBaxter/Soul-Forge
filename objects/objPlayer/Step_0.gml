@@ -141,19 +141,39 @@ if keyboard_check_pressed(vk_escape){
 	room_goto(pauseMenu);
 }
 
-if (keyboard_check(ord("E"))){
+if (keyboard_check(ord("E"))&&buffCooldown<=0){
 	useBuff();
+	buffCooldown = 30;
 }
 
 if(buffTimer<=0)
 	unBuff();
 
 buffTimer--;
+buffCooldown--;
 
 if (keyboard_check(ord("Q")) && canTeleport){
 	x = mouse_x;
 	y = mouse_y;
 }
+
+if(bulletKillTimer >=0){
+	global.destroyBullet = true;
+}
+else{
+	global.destroyBullet = false;
+}
+bulletKillTimer--;
+
+if(bulletTime >=0){
+	global.speedConst *= 0.95; 
+	
+}
+else{
+	global.speedConst = 1;
+}
+bulletTime--;
+
 
 /*
 if keyboard_check(ord("E"))

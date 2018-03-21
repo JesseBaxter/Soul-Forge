@@ -35,8 +35,11 @@ if(playerClose && canSeePlayer(id)){
 	
 	if(cooldown<=0){
 		instance_create_layer(x,y,layer,objBulletEnemyBasic);
-		cooldown = 10;
-	}	
+		cooldown = 10*(1/global.speedConst);
+	}
+	if(cooldown > 100)
+		cooldown = 100;
+	
 }
 
 cooldown--;
@@ -61,3 +64,5 @@ if (hitpoints < 75 || regenerating) {
 		regenerating = false;
 	}
 }
+
+speed = normSpeed*global.speedConst; 

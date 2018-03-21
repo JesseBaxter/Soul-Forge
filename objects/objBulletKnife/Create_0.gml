@@ -6,6 +6,7 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 //Gives the bullet a little bit of spread, between -2 and 2. 
 direction = direction + random_range(-2, 2);
 
+normSpeed = 10;
 //Set the speed the bullet will travel at
 speed = 10;
 

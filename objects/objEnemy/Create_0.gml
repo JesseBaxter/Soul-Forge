@@ -18,6 +18,6 @@ playerx = 0;
 playery = 0;
 cooldown = 0;
 timer = 0;
-
+normSpeed = 5;
 //regenerate
 regenerating = false;
