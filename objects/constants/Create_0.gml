@@ -3,3 +3,5 @@
 image_alpha = 0;
 global.speedConst = 1;
 global.destroyBullet = false;
+
+

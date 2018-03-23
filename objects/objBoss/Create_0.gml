@@ -4,3 +4,4 @@
 hitpoints = 5000;
 speed = .1;
 timer = 120;
+normSpeed = 0.1;

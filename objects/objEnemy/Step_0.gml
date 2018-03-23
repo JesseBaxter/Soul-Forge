@@ -35,7 +35,8 @@ if(playerClose && canSeePlayer(id)){
 	}
 	
 	if(cooldown<=0){
-		instance_create_layer(x,y,layer,objBulletEnemyBasic);
+		if(room = level || room = room1)
+			instance_create_layer(x,y,"Bullets",objBulletEnemyBasic);
 		cooldown = 10*(1/global.speedConst);
 	}
 	if(cooldown > 100)
@@ -84,5 +85,3 @@ if(global.boolStart ==true){
 	startTimer--;
 }
 
-global.lastx =x;
-global.lasty = y;

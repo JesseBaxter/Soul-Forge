@@ -4,3 +4,4 @@ image_angle = direction+90;
 if (tilemap_get_at_pixel(objPlayer.wallId, x, y)) {
 	instance_destroy();
 }
+speed = normSpeed*global.speedConst; 
