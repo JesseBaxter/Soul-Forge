@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-path_start(path0,4,path_action_reverse,true);
+//path_start(path0,4,path_action_reverse,true);
 hitpoints = 100;
 
 //show that player is found
@@ -18,6 +18,11 @@ playerx = 0;
 playery = 0;
 cooldown = 0;
 timer = 0;
-normSpeed = 5;
+normSpeed = 4;
 //regenerate
 regenerating = false;
+path = 0;
+
+//path_start(path,4, path_action_reverse,true)
+startTimer = 3;
+

@@ -3,12 +3,13 @@
 image_angle = direction-90;
 	
 //move back if reached player's previous seen point
+
 if (distance_to_point(playerx, playery) == 0 && !playerClose) {
 	move_towards_point(xpath, ypath, 4);
 }
 
 if (distance_to_point(xpath, ypath) == 0 && !playerClose && !onPath) {
-	path_start(path0,4,path_action_reverse,true);
+	path_start(path,4,path_action_reverse,true);
 	path_position = pathPos;
 	playerFound = false;
 	onPath = true;
@@ -52,7 +53,15 @@ timer--;
 
 //when enemy health is none
 if (hitpoints <= 0) {
-	instance_create_layer(x,y,"Instances",objEnemyRespawn);
+	if(random(10>=5)){
+		instance_create_layer(x,y,"Instances",objBlueComponent);
+	}
+	if(random(10>=5)){
+		instance_create_layer(x-2,y-2,"Instances",objRedComponent);
+	}
+	if(random(10>=5)){
+		instance_create_layer(x+2,y+2,"Instances",objYellowComponent);
+	}
 	instance_destroy();
 }
 
@@ -66,3 +75,14 @@ if (hitpoints < 75 || regenerating) {
 }
 
 speed = normSpeed*global.speedConst; 
+
+if(global.boolStart ==true){
+	path_start(path,4, path_action_reverse,true);
+	if(startTimer<=0){
+		global.boolStart = false;
+	}
+	startTimer--;
+}
+
+global.lastx =x;
+global.lasty = y;

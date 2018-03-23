@@ -1,3 +1,5 @@
 /// @description Insert description here
-//x = objStartPosition.x;
-//y = objStartPosition.y;
+if(room != pauseMenu && room != craftingMenu){
+	x = objStartPosition.x;
+	y = objStartPosition.y;
+}

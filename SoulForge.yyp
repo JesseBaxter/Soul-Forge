@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "52872647-b99e-4c0c-80d8-e1827734345d",
+            "Value": {
+                "id": "09945b4c-464b-4f5b-bdea-1e68a5d8f14c",
+                "resourcePath": "sprites\\sprBossMiniBullet\\sprBossMiniBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "538ac91f-a6b3-411f-a189-7cd77c0139b2",
             "Value": {
                 "id": "85fc3471-41a3-4b50-9ea2-ce1b4d7a2e97",
@@ -491,6 +499,14 @@
             "Value": {
                 "id": "f7b9370b-d0de-4f04-96ba-7ade6a33adca",
                 "resourcePath": "sprites\\sprPlayer_old\\sprPlayer_old.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a25480e-1dbd-4433-b229-8992802b4b0d",
+            "Value": {
+                "id": "9e7b02db-93f6-4c38-93eb-1665c3ad937a",
+                "resourcePath": "sprites\\sprBossBullet\\sprBossBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -524,6 +540,14 @@
                 "id": "1c719b40-afc6-407f-b4f2-eae14ea278b7",
                 "resourcePath": "objects\\objRedComponent\\objRedComponent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "63036d68-ac60-4e52-a0ca-219a31a5a64d",
+            "Value": {
+                "id": "6ffba13b-3839-43b4-b2b6-50504a4a0cc8",
+                "resourcePath": "scripts\\createEnemiesLevelOne\\createEnemiesLevelOne.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "770f9787-2e1c-4a8d-90c8-2a505182c566",
+            "Value": {
+                "id": "cc3b3f91-20ac-4fae-b19b-d98264a788d9",
+                "resourcePath": "objects\\objSmallBossBullet\\objSmallBossBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "784ff953-d9fa-41e0-968a-4899937e791a",
             "Value": {
                 "id": "1f51d2f8-21ec-4609-a160-d6aa3ebdb9a6",
@@ -675,6 +707,14 @@
             "Value": {
                 "id": "685b25b1-5f5c-45e8-8dd9-7caa1d53a259",
                 "resourcePath": "sprites\\sprTeleport\\sprTeleport.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a62fa5d-5b9a-4b3e-874f-2c25c13e1248",
+            "Value": {
+                "id": "825b318d-0be1-4bce-b7c8-89aac06af830",
+                "resourcePath": "sprites\\sprBoss\\sprBoss.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -791,6 +831,14 @@
             }
         },
         {
+            "Key": "9e9daabd-f4f2-49f0-a2bb-6316fd169dd1",
+            "Value": {
+                "id": "d79d4bbe-30b3-4d37-beed-2afec87648bf",
+                "resourcePath": "objects\\objBoss\\objBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f84b0d2-c717-430f-bc33-2c96ba3dc994",
             "Value": {
                 "id": "dbd58083-269a-4d63-8f0d-141239daecb8",
@@ -852,6 +900,14 @@
                 "id": "40d948d9-85b0-4a52-ab2c-397251cebe4a",
                 "resourcePath": "sprites\\sprHuskDeath\\sprHuskDeath.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "6255080b-3d9a-4b4a-9e58-236a3c99c5ba",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -1159,6 +1215,22 @@
             }
         },
         {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "fcac0a39-7884-4157-b782-1ae532066612",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f953b314-d4bd-4786-9738-12b55f969626",
+            "Value": {
+                "id": "fe0cb461-c7e0-4dd1-817a-cf0fa3a4d9dc",
+                "resourcePath": "objects\\objBossBullet\\objBossBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa5fe560-0acb-433b-826b-7b3c8aa6fe65",
             "Value": {
                 "id": "79803ccc-0fd9-4d17-92ee-5a3815f5e64f",
@@ -1181,7 +1253,8 @@
         "922f32d8-b3d1-4f99-8296-7b6a68f8de1c",
         "47386409-bcfa-4beb-8fce-08026bf491f2",
         "a30b00a4-1a41-479e-9075-79b87e1af001",
-        "47091d10-0b32-4cdb-b02e-49609b80c6e0"
+        "47091d10-0b32-4cdb-b02e-49609b80c6e0",
+        "63036d68-ac60-4e52-a0ca-219a31a5a64d"
     ],
     "tutorial": ""
 }

@@ -13,7 +13,7 @@ global.roomPrevious = room0;
 global.redComponent = 0;
 global.blueComponent = 0;
 global.yellowComponent = 0;
-//Buffs are fire rate, speed, shield, teleport, ?, ?
+//Buffs are fire rate, speed, shield, teleport, bullet kill, TIMESTOP
 global.boosts = [0,0,0,0,0,0];
 
 currentBuff = 0;
@@ -23,5 +23,6 @@ weaponCoolDownReduction = 0;
 canTeleport = false;
 bulletKillTimer = 0;
 bulletTime = 0;
-
+global.lastRoom = room;
 persistent = true;
+createEnemiesLevelOne();

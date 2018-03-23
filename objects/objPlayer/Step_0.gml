@@ -6,8 +6,7 @@ image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 isMoving = false;
 
 if(health == 0) {
-	instance_create_layer(x,y,"Instances",objPlayerRespawn);
-	instance_destroy();
+	game_restart();
 }
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
@@ -137,8 +136,13 @@ if (keyboard_check(ord("8")) && unlockedWeps[7] == 1){
 }
 
 if keyboard_check_pressed(vk_escape){
-	room_set_persistent(room0,true)
-	room_goto(pauseMenu);
+	if(room == level || room==room1){
+		global.lastRoom = room;
+		room_set_persistent(room,true);
+		room_goto(pauseMenu);
+		objStartPosition.x=x;
+		objStartPosition.y=y;
+	}
 }
 
 if (keyboard_check(ord("E"))&&buffCooldown<=0){
@@ -194,6 +198,6 @@ playerWallCollision();
 mouse_xprevious = mouse_x;
 mouse_yprevious = mouse_y;
 
-if keyboard_check_pressed(vk_space) {
-	room_goto_next();
-}
+//if keyboard_check_pressed(vk_space) {
+//	room_goto_next();
+//}
