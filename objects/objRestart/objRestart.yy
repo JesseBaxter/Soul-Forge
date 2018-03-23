@@ -1,18 +1,28 @@
 {
-    "id": "fa5fe560-0acb-433b-826b-7b3c8aa6fe65",
+    "id": "322dc9ec-a10a-4d90-aad1-8bd999c75707",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objReturnButton",
+    "name": "objRestart",
     "eventList": [
         {
-            "id": "5794ecef-de42-49c7-a8be-84e96cc3c542",
+            "id": "9fb78e62-2d72-45a7-bc91-20d12fe84fc7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "fa5fe560-0acb-433b-826b-7b3c8aa6fe65"
+            "eventtype": 0,
+            "m_owner": "322dc9ec-a10a-4d90-aad1-8bd999c75707"
+        },
+        {
+            "id": "9f567296-0079-4bf8-9fe8-582e11790b81",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "322dc9ec-a10a-4d90-aad1-8bd999c75707"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "272eb732-7bfe-49db-aa82-77183597b35d",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

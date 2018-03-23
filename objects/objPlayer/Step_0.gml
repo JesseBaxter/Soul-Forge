@@ -190,7 +190,7 @@ if keyboard_check(ord("Q"))
    playerSpeed--;
 }
 */
-if keyboard_check_pressed(ord("R")){
+if keyboard_check_pressed(ord("L")){
 	game_restart();
 }
 //Update previous mouse position

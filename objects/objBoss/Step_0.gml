@@ -12,3 +12,7 @@ if(timer <=0){
 if(global.speedConst ==1 && timer >=200){
 	timer = 160;
 }
+
+if(hitpoints <= 0) {
+	instance_destroy();
+}

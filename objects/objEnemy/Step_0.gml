@@ -4,6 +4,8 @@ image_angle = direction-90;
 	
 //move back if reached player's previous seen point
 
+normSpeed = 4;
+
 if (distance_to_point(playerx, playery) == 0 && !playerClose) {
 	move_towards_point(xpath, ypath, 4);
 }
@@ -31,7 +33,7 @@ if(playerClose && canSeePlayer(id)){
 		show_debug_message("moving forward")
 		move_towards_point(playerx,playery,4);
 	} else {
-		speed = 0;
+		normSpeed = 0;
 	}
 	
 	if(cooldown<=0){

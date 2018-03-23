@@ -3,4 +3,6 @@
 
 room_goto(global.lastRoom);
 global.boolStart = true;
-objEnemy.startTimer = 3;
+if (instance_exists(objEnemy)) {
+	objEnemy.startTimer = 3;
+}

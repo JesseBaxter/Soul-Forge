@@ -327,11 +327,27 @@
             }
         },
         {
+            "Key": "2e080c0c-f4f5-4b7e-b3d7-a79670fb69d7",
+            "Value": {
+                "id": "83ebeb82-0708-48f0-8502-76947e2935c1",
+                "resourcePath": "sprites\\sprGun\\sprGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3061c98e-d0fc-4579-87d9-6fbe0e3f1f22",
             "Value": {
                 "id": "2f72399f-7a75-4c47-bc39-b9a34588b192",
                 "resourcePath": "sprites\\sprBlueComponent1\\sprBlueComponent1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "322dc9ec-a10a-4d90-aad1-8bd999c75707",
+            "Value": {
+                "id": "2fb687b0-c307-499f-a64b-663f42b80e84",
+                "resourcePath": "objects\\objRestart\\objRestart.yy",
+                "resourceType": "GMObject"
             }
         },
         {
