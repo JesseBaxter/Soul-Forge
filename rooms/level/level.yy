@@ -194,7 +194,7 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRPathLayer",
-            "pathId": "439c1478-1d9a-4801-9e26-c7f5c3510462",
+            "pathId": "f1f925b7-3796-4c94-8bd4-418e20b05b9e",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true
@@ -258,7 +258,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "31a3a36d-1170-432b-88be-bf6c33aa5518","hborder": 1000000000,"hport": 768,"hspeed": -1,"hview": 384,"inherit": false,"modelName": "GMRView","objId": "20514eca-f1e7-4e4a-9016-bc5d46d10f28","mvc": "1.0","vborder": 100000000,"visible": true,"vspeed": -1,"wport": 1024,"wview": 512,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "31a3a36d-1170-432b-88be-bf6c33aa5518","hborder": 1000000000,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "20514eca-f1e7-4e4a-9016-bc5d46d10f28","mvc": "1.0","vborder": 100000000,"visible": true,"vspeed": -1,"wport": 1024,"wview": 768,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "d58d440a-2ac0-4c95-8809-0654a3c9c823","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "275a2791-c8dd-4fa0-8254-7868bf2e7cc9","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "6d319ecc-7da1-4ba3-b33a-cb3109cf16a3","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
