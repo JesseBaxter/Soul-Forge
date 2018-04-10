@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "835a73d2-8302-4f9f-97cf-0a51c962664b",
+            "Value": {
+                "id": "6a192db3-a4e7-43d6-b4e7-cb9fdcaacd27",
+                "resourcePath": "objects\\objBoss2Enemy\\objBoss2Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "876576b2-0eb2-4d3d-90ad-f8b0efbc91c1",
             "Value": {
                 "id": "685b25b1-5f5c-45e8-8dd9-7caa1d53a259",
