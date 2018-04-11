@@ -351,6 +351,22 @@
             }
         },
         {
+            "Key": "32a40e75-5e1f-49b3-9137-13981491aefc",
+            "Value": {
+                "id": "37094532-6942-4ba0-b59e-b80fe3034a83",
+                "resourcePath": "scripts\\createEnemiesLevelTwo\\createEnemiesLevelTwo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "32aa81a3-0f5b-4c3c-bd83-8805104fe623",
+            "Value": {
+                "id": "914e164d-9f78-4dd8-b850-23669d9e320f",
+                "resourcePath": "objects\\objFirstBossDeath\\objFirstBossDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "340595ef-0260-484c-9f06-8a0ccba60a97",
             "Value": {
                 "id": "714bc5e3-bb33-4b6f-9597-2f1239647fef",
@@ -523,6 +539,14 @@
             "Value": {
                 "id": "3d896013-0aae-4035-91bc-dcd9b561116f",
                 "resourcePath": "sprites\\sprExplosion\\sprExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "577a2e82-5682-4001-9c43-4b9cfef466d0",
+            "Value": {
+                "id": "b7692673-3851-4043-b085-cdca16a21e21",
+                "resourcePath": "sprites\\sprBossTwo\\sprBossTwo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -999,6 +1023,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "848e9d26-5a21-4f85-b9dd-fd56c6fb04e4",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "a9c36ca2-d220-4530-bf7a-f945ff4e977f",
             "Value": {
                 "id": "45d63b3c-e79b-4284-bd24-decb5f871792",
@@ -1183,6 +1215,14 @@
             }
         },
         {
+            "Key": "d2fb942d-e6d7-44be-9458-73515657586f",
+            "Value": {
+                "id": "b95d41b4-e305-4f59-9165-5128c0aca60d",
+                "resourcePath": "rooms\\bossRoom2\\bossRoom2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d3d7cacb-1427-4084-b465-6196c4613710",
             "Value": {
                 "id": "a1784e0f-b03f-43f6-ba97-fbdfeefd5179",
@@ -1311,6 +1351,14 @@
             }
         },
         {
+            "Key": "edfc4b86-ef5a-4ebd-9d50-f1f4c8f20a75",
+            "Value": {
+                "id": "94ceef34-211c-4a34-a0b1-d9bcfd0d0f1d",
+                "resourcePath": "objects\\spawnEnemiesLvl2\\spawnEnemiesLvl2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f1f925b7-3796-4c94-8bd4-418e20b05b9e",
             "Value": {
                 "id": "2829484d-6aef-4c25-afb0-61cb2a3a2aed",
@@ -1324,6 +1372,14 @@
                 "id": "5134c3a3-2276-496b-9107-f075fc3f296e",
                 "resourcePath": "views\\f2308918-ded1-4e88-b3b5-1827c0d870b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "24706c89-97db-4a0e-bffd-f3fb0277203b",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
@@ -1358,7 +1414,8 @@
         "47386409-bcfa-4beb-8fce-08026bf491f2",
         "a30b00a4-1a41-479e-9075-79b87e1af001",
         "47091d10-0b32-4cdb-b02e-49609b80c6e0",
-        "63036d68-ac60-4e52-a0ca-219a31a5a64d"
+        "63036d68-ac60-4e52-a0ca-219a31a5a64d",
+        "32a40e75-5e1f-49b3-9137-13981491aefc"
     ],
     "tutorial": ""
 }

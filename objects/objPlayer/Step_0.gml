@@ -136,7 +136,7 @@ if (keyboard_check(ord("8")) && unlockedWeps[7] == 1){
 }
 
 if keyboard_check_pressed(vk_escape){
-	if(room == level || room==room1){
+	if(room == level || room==room1|| room==level2 || room==bossRoom2 ){
 		global.lastRoom = room;
 		room_set_persistent(room,true);
 		room_goto(pauseMenu);
