@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "721dd86d-e10f-4add-afbe-cca4c9a37d12",
+            "Value": {
+                "id": "4728feb7-78bd-4747-bbf1-c97b862559a0",
+                "resourcePath": "sprites\\sprite69Nice\\sprite69Nice.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "748560b3-3c4c-4937-991a-b48a748460f6",
             "Value": {
                 "id": "9a9d0720-10d6-4991-9c94-eabd7853c634",
@@ -1071,6 +1079,14 @@
             }
         },
         {
+            "Key": "acb2605d-3aa0-4faf-9fe1-53604d6f02e3",
+            "Value": {
+                "id": "c3964e84-80cd-4d6a-b0a7-f137277d6b3a",
+                "resourcePath": "sprites\\sprBossTwoShield\\sprBossTwoShield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae27b0ef-a5a2-47f1-9769-cbbe5ccad713",
             "Value": {
                 "id": "7061c74d-b6ba-47ac-bd7b-e1df242c9aeb",
@@ -1084,6 +1100,14 @@
                 "id": "c0ff88a7-1f64-4465-92e5-0221581db72c",
                 "resourcePath": "objects\\objBulletPipe\\objBulletPipe.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8e0da6f-60b1-4e8c-876d-dea97baba4f8",
+            "Value": {
+                "id": "8e5c1b32-4e89-48f4-bef4-75a1f56cfd70",
+                "resourcePath": "rooms\\victoryRoom\\victoryRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1151,6 +1175,14 @@
             }
         },
         {
+            "Key": "c70345d1-320e-43ff-ac39-14766d209ccf",
+            "Value": {
+                "id": "83e8d3e4-4687-42a3-adec-2ef92991f622",
+                "resourcePath": "sprites\\sprite68\\sprite68.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c77d3084-1ff4-48c1-8a68-2e43d6e544e2",
             "Value": {
                 "id": "bb13f9ba-ea6d-4768-abd2-fa9d52260045",
@@ -1204,6 +1236,14 @@
                 "id": "87a4642b-80d9-4432-a9f4-0de2db35d119",
                 "resourcePath": "sprites\\sprFireRateUp\\sprFireRateUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1978627-68fc-4dbd-a8b0-485e2c0c4fb0",
+            "Value": {
+                "id": "22aa336b-baff-471a-b17b-db96d40e1c84",
+                "resourcePath": "objects\\youWinYay\\youWinYay.yy",
+                "resourceType": "GMObject"
             }
         },
         {

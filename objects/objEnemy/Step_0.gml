@@ -37,7 +37,7 @@ if(playerClose && canSeePlayer(id)){
 	}
 	
 	if(cooldown<=0){
-		if(room = level || room = room1)
+		if(room = level || room = room1|| room = level2|| room = bossRoom2)
 			instance_create_layer(x,y,"Bullets",objBulletEnemyBasic);
 		cooldown = 10*(1/global.speedConst);
 	}

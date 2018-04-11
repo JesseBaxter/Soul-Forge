@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (shieldOn) {
-	sprite_index = sprBoss2shield;
+	sprite_index = sprBossTwoShield;
 	//speed = 0;
 	shieldTimer--;
 	if (shieldTimer <= 0) {
@@ -10,7 +10,7 @@ if (shieldOn) {
 	}
 }
 else {
-	sprite_index = sprBoss2;
+	sprite_index = sprBossTwo;
 	//speed = normSpeed*global.speedConst;
 	shieldRecharge--;
 	if (shieldRecharge <= 0) {
