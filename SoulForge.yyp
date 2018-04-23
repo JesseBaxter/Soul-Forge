@@ -495,10 +495,26 @@
             }
         },
         {
+            "Key": "4d7d4699-90b1-42c6-bdee-d388b7acdb47",
+            "Value": {
+                "id": "9152b3b4-e516-4586-9da9-67594152e1aa",
+                "resourcePath": "objects\\objLevelFade\\objLevelFade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4fd41abe-9caa-4754-89eb-3ab37b3c1cce",
             "Value": {
                 "id": "bcb12400-bf5e-4083-8f8c-a0779010c081",
                 "resourcePath": "sprites\\sprFieldOfView\\sprFieldOfView.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fd6bf9b-1d92-4317-8b4a-2ae0b4ef50d6",
+            "Value": {
+                "id": "4cb366d6-4765-4f56-9016-69bcd306eaa5",
+                "resourcePath": "sprites\\sprLevelFade\\sprLevelFade.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1340,6 +1356,14 @@
                 "id": "2fd69664-71f8-4e6e-8e05-a131d2ca435b",
                 "resourcePath": "views\\ddac840a-d379-4a1c-b8a9-ffea0cf5f4bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1d87dc0-68b1-41c8-8b79-d3b6039548b5",
+            "Value": {
+                "id": "dfd56782-7f55-4fbf-9536-13cff484ef94",
+                "resourcePath": "sprites\\sprite71\\sprite71.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
