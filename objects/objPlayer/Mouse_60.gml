@@ -1,5 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
-//currentGun--;
-//if(currentGun < 0)
-//	currentGun = array_length_1d(global.boosts)-1;
+good = false;
+i= currentGun+1;
+while(!good){
+	if(i > array_length_1d(unlockedWeps)){
+		i = 1
+	}
+	if(unlockedWeps[i-1] == 0){
+		i++;
+	}
+	else{
+		good = true;
+	}
+}
+currentGun = i;

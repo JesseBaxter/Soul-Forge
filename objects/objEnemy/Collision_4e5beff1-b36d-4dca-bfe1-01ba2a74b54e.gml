@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-hitpoints-= 34100;
+hitpoints -= 20;
