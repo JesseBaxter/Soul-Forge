@@ -1,3 +1,3 @@
 /// @description Insert description here
-room_goto_next();
 instance_destroy(objEnemy);
+room_goto_next();
