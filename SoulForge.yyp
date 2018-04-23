@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0e70fae5-8b58-4152-ad9a-6b1d2fba8c41",
+            "Value": {
+                "id": "f9a54a92-63c6-4a1d-8635-a8c94356ce98",
+                "resourcePath": "sprites\\sprTeleporter\\sprTeleporter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0eedd769-dfba-4952-b588-4cd8637e3505",
             "Value": {
                 "id": "9916eb96-4e9c-4569-ac33-a747e750b8df",
