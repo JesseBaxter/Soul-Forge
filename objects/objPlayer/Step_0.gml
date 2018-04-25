@@ -6,7 +6,8 @@ image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 isMoving = false;
 
 if(health <= 0) {
-	game_restart();
+	instance_create_layer(x,y,layer,objEXPLOSION);
+	//game_restart();
 }
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
