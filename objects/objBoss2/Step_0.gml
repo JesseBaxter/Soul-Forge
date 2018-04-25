@@ -3,7 +3,7 @@
 if (shieldOn) {
 	sprite_index = sprBossTwoShield;
 	//speed = 0;
-	shieldTimer--;
+	shieldTimer = shieldTimer - global.speedConst;
 	if (shieldTimer <= 0) {
 		shieldOn = false;
 		shieldTimer = 150;
@@ -12,7 +12,7 @@ if (shieldOn) {
 else {
 	sprite_index = sprBossTwo;
 	//speed = normSpeed*global.speedConst;
-	shieldRecharge--;
+	shieldRecharge = shieldRecharge - global.speedConst;
 	if (shieldRecharge <= 0) {
 		shieldOn = true;
 		shieldRecharge = 150;
