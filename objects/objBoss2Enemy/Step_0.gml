@@ -4,11 +4,13 @@ direction = point_direction(x,y,objPlayer.x,objPlayer.y);
 speed = normSpeed*global.speedConst;
 
 //stop moving when close enough to player
+/*
 if (distance_to_object(objPlayer) < 10) {
 	normSpeed = 0;
 } else {
 	normSpeed = 4;
 }
+*/
 
 //when enemy health is none
 if (hitpoints <= 0) {

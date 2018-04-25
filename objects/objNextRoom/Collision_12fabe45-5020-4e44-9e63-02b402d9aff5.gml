@@ -1,3 +1,5 @@
 /// @description Insert description here
+
 instance_destroy(objEnemy);
-room_goto_next();
+if(room!=bossRoom2) 
+	room_goto_next();

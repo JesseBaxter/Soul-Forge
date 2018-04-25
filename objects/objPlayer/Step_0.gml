@@ -6,8 +6,8 @@ image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 isMoving = false;
 
 if(health <= 0) {
-	instance_create_layer(x,y,layer,objEXPLOSION);
-	//game_restart();
+	//instance_create_layer(x,y,layer,objEXPLOSION);
+	game_restart();
 }
 
 //Shooting, creates a bullet obj at the player if the left mouse button is pressed
@@ -146,7 +146,7 @@ if keyboard_check_pressed(vk_escape){
 	}
 }
 
-if (keyboard_check(ord("E"))&&buffCooldown<=0){
+if (mouse_check_button(mb_right)&&buffCooldown<=0){
 	useBuff();
 	buffCooldown = 30;
 }
@@ -157,10 +157,12 @@ if(buffTimer<=0)
 buffTimer--;
 buffCooldown--;
 
-if (keyboard_check(ord("Q")) && canTeleport){
+if (keyboard_check(vk_space) && canTeleport&&teleportDelay<=0){
 	x = mouse_x;
 	y = mouse_y;
+	teleportDelay =10;
 }
+teleportDelay--;
 
 if(bulletKillTimer >=0){
 	global.destroyBullet = true;
@@ -180,6 +182,28 @@ else{
 bulletTime--;
 
 
+if (keyboard_check(ord("Q"))&&buffChanger<=0){
+	currentBuff--;
+	if(currentBuff < 0)
+		currentBuff = array_length_1d(global.boosts)-1;
+	buffChanger = 5;
+}
+
+if (keyboard_check(ord("E"))&&buffChanger<=0){
+	currentBuff++;
+	if(currentBuff > array_length_1d(global.boosts)-1)
+		currentBuff = 0;
+	buffChanger = 5;
+}
+buffChanger--;
+
+if(room == bossRoom2){
+	instance_destroy(objNextRoom);
+}
+if(room == level2||room = bossRoom2){
+	instance_destroy(objFirstBossDeath);
+}
+
 /*
 if keyboard_check(ord("E"))
 {
@@ -190,7 +214,7 @@ if keyboard_check(ord("Q"))
 {
    playerSpeed--;
 }
-*/
+
 if keyboard_check_pressed(ord("L")){
 	game_restart();
 }
@@ -198,7 +222,3 @@ if keyboard_check_pressed(ord("L")){
 playerWallCollision();
 mouse_xprevious = mouse_x;
 mouse_yprevious = mouse_y;
-
-//if keyboard_check_pressed(vk_space) {
-//	room_goto_next();
-//}

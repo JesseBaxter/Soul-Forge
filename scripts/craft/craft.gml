@@ -11,7 +11,7 @@ if(blue && red && yellow){
 	objYellowCrafting.sprite_index = sprYellowComponentBig;
 }
 
-if(blue && red){
+else if(blue && red){
 	if(global.redComponent > 0 && global.blueComponent>0){
 		global.boosts[3]++;
 		objCraftSuccessful.timer = 20;
@@ -24,7 +24,7 @@ if(blue && red){
 	objBlueCrafting.sprite_index = sprBlueComponentBig;
 }
 
-if(yellow && red ){
+else if(yellow && red ){
 	if(global.redComponent > 0 && global.yellowComponent>0){
 		global.boosts[4]++;
 		objCraftSuccessful.timer = 20;
@@ -37,7 +37,7 @@ if(yellow && red ){
 	objYellowCrafting.sprite_index = sprYellowComponentBig;
 }
 
-if(yellow && blue){
+else if(yellow && blue){
 	if(global.blueComponent > 0 && global.yellowComponent>0){
 		global.boosts[5]++;
 		objCraftSuccessful.timer = 20;
@@ -52,7 +52,7 @@ if(yellow && blue){
 }
 
 
-if(red){
+else if(red){
 	if( global.redComponent>0){
 		global.boosts[0]++;
 		objCraftSuccessful.timer = 20;
@@ -63,7 +63,7 @@ if(red){
 	
 }
 
-if(blue){
+else if(blue){
 	if( global.blueComponent>0){
 		global.boosts[1]++;
 		objCraftSuccessful.timer = 20;
@@ -75,7 +75,7 @@ if(blue){
 	
 }
 
-if(yellow){
+else if(yellow){
 	if( global.yellowComponent>0){
 		global.boosts[2]++;
 		objCraftSuccessful.timer = 20;

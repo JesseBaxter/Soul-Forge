@@ -26,3 +26,5 @@ bulletTime = 0;
 global.lastRoom = room;
 persistent = true;
 createEnemiesLevelOne();
+buffChanger = 5;
+teleportDelay = 10;

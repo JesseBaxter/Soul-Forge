@@ -33,3 +33,4 @@ if(global.speedConst ==1 && timer >=200){
 if(hitpoints <= 0) {
 	instance_destroy();
 }
+instance_destroy(objNextRoom);
